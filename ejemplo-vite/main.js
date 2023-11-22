@@ -7,6 +7,7 @@ import mainLanguage, { person, sayHello } from './modules'
 console.log(person)
 sayHello()
 console.log(mainLanguage)
+console.log("Hola");
 
 document.querySelector('#app').innerHTML = `
   <div>
